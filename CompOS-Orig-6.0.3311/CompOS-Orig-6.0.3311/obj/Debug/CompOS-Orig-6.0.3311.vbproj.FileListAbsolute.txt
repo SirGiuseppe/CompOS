@@ -1,0 +1,12 @@
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\bin\Debug\CompOS-Orig-6.0.3311.exe.config
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-Orig-6.0.3311.vbprojResolveAssemblyReference.cache
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS_Orig_6._0._3311.Resources.resources
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS_Orig_6._0._3311.Spl.resources
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-Orig-6.0.3311.vbproj.GenerateResource.Cache
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-Orig-6.0.3311.xml
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\bin\Debug\CompOS-Orig-6.0.3311.exe
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\bin\Debug\CompOS-Orig-6.0.3311.pdb
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\bin\Debug\CompOS-Orig-6.0.3311.xml
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-Orig-6.0.3311.exe
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-Orig-6.0.3311.pdb
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS_Orig_6._0._3311.VBIOS.resources
