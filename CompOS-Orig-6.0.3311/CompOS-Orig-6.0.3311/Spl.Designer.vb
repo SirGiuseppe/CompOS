@@ -32,7 +32,7 @@ Partial Class Spl
         'PictureBox1
         '
         Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox1.Image = Global.CompOS_Orig_6._0._3311.My.Resources.Resources.Load
+        Me.PictureBox1.Image = Global.CompOS_Basecode.My.Resources.Resources.Load
         Me.PictureBox1.Location = New System.Drawing.Point(1268, 670)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(100, 100)
@@ -60,7 +60,7 @@ Partial Class Spl
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.BackgroundImage = Global.CompOS_Orig_6._0._3311.My.Resources.Resources.aliveLogo
+        Me.BackgroundImage = Global.CompOS_Basecode.My.Resources.Resources.aliveLogo
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(1366, 768)
         Me.Controls.Add(Me.Label1)

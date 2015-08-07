@@ -88,7 +88,7 @@ Partial Class VBIOS
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.BackgroundImage = Global.CompOS_Orig_6._0._3311.My.Resources.Resources.aliveLogo
+        Me.BackgroundImage = Global.CompOS_Basecode.My.Resources.Resources.aliveLogo
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(1366, 768)
         Me.Controls.Add(Me.Panel1)

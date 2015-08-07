@@ -1,13 +1,13 @@
-C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-Orig-6.0.3311.vbprojResolveAssemblyReference.cache
-C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-Orig-6.0.3311.vbproj.GenerateResource.Cache
 C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\bin\Debug\CompOS-Basecode.exe.config
 C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\bin\Debug\CompOS-Basecode.exe
 C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\bin\Debug\CompOS-Basecode.pdb
 C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\bin\Debug\CompOS-Basecode.xml
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-MainShell.vbprojResolveAssemblyReference.cache
 C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS_Basecode.Login.resources
 C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS_Basecode.Resources.resources
 C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS_Basecode.Spl.resources
 C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS_Basecode.VBIOS.resources
+C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-MainShell.vbproj.GenerateResource.Cache
 C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-Basecode.exe
 C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-Basecode.xml
 C:\CompOS\CompOS-Orig-6.0.3311\CompOS-Orig-6.0.3311\obj\Debug\CompOS-Basecode.pdb

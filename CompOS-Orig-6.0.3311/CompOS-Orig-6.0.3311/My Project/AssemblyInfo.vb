@@ -11,7 +11,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("CompOS BaseBuild")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("A4A Systems, U.S.")>
-<Assembly: AssemblyProduct("CompOS-Orig-6.0.3311")>
+<Assembly: AssemblyProduct("CompOS Basecode")>
 <Assembly: AssemblyCopyright("Copyright © 2015 A4A Systems, U.S.")>
 <Assembly: AssemblyTrademark("")>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("6.0.3311.0")>
+<Assembly: AssemblyVersion("6.0.3315.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>

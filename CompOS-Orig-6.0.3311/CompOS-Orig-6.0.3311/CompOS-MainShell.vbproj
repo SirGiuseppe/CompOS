@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BF05967B-C64E-4E68-B60C-89A3E35A0914}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>CompOS_Orig_6._0._3311.My.MyApplication</StartupObject>
-    <RootNamespace>CompOS_Orig_6._0._3311</RootNamespace>
-    <AssemblyName>CompOS-Orig-6.0.3311</AssemblyName>
+    <StartupObject>CompOS_Basecode.My.MyApplication</StartupObject>
+    <RootNamespace>CompOS_Basecode</RootNamespace>
+    <AssemblyName>CompOS-Basecode</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>CompOS-Orig-6.0.3311.xml</DocumentationFile>
+    <DocumentationFile>CompOS-Basecode.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>CompOS-Orig-6.0.3311.xml</DocumentationFile>
+    <DocumentationFile>CompOS-Basecode.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -72,12 +72,14 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FadeEngine.vb" />
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="LogonProviders.vb" />
     <Compile Include="Spl.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +110,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -138,6 +143,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\aliveLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CompOS Logo 1 - 7.27.15-.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
