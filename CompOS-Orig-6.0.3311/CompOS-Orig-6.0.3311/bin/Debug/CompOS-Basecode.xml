@@ -22,6 +22,11 @@ CompOS-Basecode
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:CompOS_Basecode.My.Resources.Resources.A4Anewlogo___shortnwe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:CompOS_Basecode.My.Resources.Resources.aliveLogo">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -37,7 +42,22 @@ CompOS-Basecode
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:CompOS_Basecode.My.Resources.Resources.Load1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:CompOS_Basecode.My.Resources.Resources.login_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CompOS_Basecode.My.Resources.Resources.restart_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CompOS_Basecode.My.Resources.Resources.shutdown_48">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

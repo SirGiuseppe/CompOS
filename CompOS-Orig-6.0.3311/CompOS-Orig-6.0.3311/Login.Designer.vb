@@ -24,6 +24,13 @@ Partial Class Login
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -39,6 +46,8 @@ Partial Class Login
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -47,6 +56,9 @@ Partial Class Login
         '
         Me.Panel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.Color.Gray
+        Me.Panel1.Controls.Add(Me.Label5)
+        Me.Panel1.Controls.Add(Me.GroupBox2)
+        Me.Panel1.Controls.Add(Me.GroupBox1)
         Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Label4)
@@ -60,6 +72,87 @@ Partial Class Login
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1368, 232)
         Me.Panel1.TabIndex = 0
+        '
+        'Label5
+        '
+        Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI Light", 11.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.Red
+        Me.Label5.Location = New System.Drawing.Point(207, 211)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(0, 21)
+        Me.Label5.TabIndex = 13
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox2.Controls.Add(Me.Button8)
+        Me.GroupBox2.Controls.Add(Me.Button9)
+        Me.GroupBox2.Font = New System.Drawing.Font("Segoe UI Light", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Location = New System.Drawing.Point(1145, 164)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(110, 65)
+        Me.GroupBox2.TabIndex = 12
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "CompOS Controls"
+        '
+        'Button8
+        '
+        Me.Button8.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Image = Global.CompOS_Basecode.My.Resources.Resources.restart_48
+        Me.Button8.Location = New System.Drawing.Point(6, 14)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(48, 48)
+        Me.Button8.TabIndex = 10
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button9.Image = Global.CompOS_Basecode.My.Resources.Resources.shutdown_48
+        Me.Button9.Location = New System.Drawing.Point(56, 14)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(48, 48)
+        Me.Button9.TabIndex = 9
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox1.Controls.Add(Me.Button7)
+        Me.GroupBox1.Controls.Add(Me.Button6)
+        Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI Light", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Location = New System.Drawing.Point(1255, 164)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(110, 65)
+        Me.GroupBox1.TabIndex = 11
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Device Controls"
+        '
+        'Button7
+        '
+        Me.Button7.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.Image = Global.CompOS_Basecode.My.Resources.Resources.restart_48
+        Me.Button7.Location = New System.Drawing.Point(6, 14)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(48, 48)
+        Me.Button7.TabIndex = 10
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Image = Global.CompOS_Basecode.My.Resources.Resources.shutdown_48
+        Me.Button6.Location = New System.Drawing.Point(56, 14)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(48, 48)
+        Me.Button6.TabIndex = 9
+        Me.Button6.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -110,7 +203,7 @@ Partial Class Login
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(195, 48)
         Me.Button3.TabIndex = 10
-        Me.Button3.Text = "[Insert Other Provider]"
+        Me.Button3.Text = "A4A Developer ID"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Button2
@@ -128,6 +221,7 @@ Partial Class Login
         '
         'Button1
         '
+        Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Image = Global.CompOS_Basecode.My.Resources.Resources.login_48
         Me.Button1.Location = New System.Drawing.Point(1004, 99)
@@ -138,6 +232,7 @@ Partial Class Login
         '
         'Label4
         '
+        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI Light", 11.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(925, 138)
@@ -148,6 +243,7 @@ Partial Class Login
         '
         'Label3
         '
+        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI Light", 11.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(363, 138)
@@ -158,14 +254,18 @@ Partial Class Login
         '
         'TextBox2
         '
+        Me.TextBox2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox2.Location = New System.Drawing.Point(751, 115)
         Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox2.Size = New System.Drawing.Size(247, 20)
         Me.TextBox2.TabIndex = 4
+        Me.TextBox2.UseSystemPasswordChar = True
         '
         'TextBox1
         '
+        Me.TextBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox1.Location = New System.Drawing.Point(367, 115)
         Me.TextBox1.Name = "TextBox1"
@@ -174,6 +274,7 @@ Partial Class Login
         '
         'PictureBox1
         '
+        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox1.BackgroundImage = Global.CompOS_Basecode.My.Resources.Resources.user_48
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.PictureBox1.Location = New System.Drawing.Point(620, 57)
@@ -184,6 +285,7 @@ Partial Class Login
         '
         'Label2
         '
+        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI Light", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(518, 185)
@@ -194,6 +296,7 @@ Partial Class Login
         '
         'Label1
         '
+        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Light", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(586, 0)
@@ -224,6 +327,8 @@ Partial Class Login
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -245,4 +350,11 @@ Partial Class Login
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents Button8 As Button
+    Friend WithEvents Button9 As Button
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents Label5 As Label
 End Class

@@ -53,6 +53,30 @@ Namespace My
                 Return defaultInstance
             End Get
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("FALSE")>  _
+        Public Property LIMSTART() As String
+            Get
+                Return CType(Me("LIMSTART"),String)
+            End Get
+            Set
+                Me("LIMSTART") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("FALSE")>  _
+        Public Property EXPKILL() As String
+            Get
+                Return CType(Me("EXPKILL"),String)
+            End Get
+            Set
+                Me("EXPKILL") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

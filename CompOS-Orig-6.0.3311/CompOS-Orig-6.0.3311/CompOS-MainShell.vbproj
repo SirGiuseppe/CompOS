@@ -72,6 +72,19 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="A4AdeveloperID.vb" />
+    <Compile Include="A4AdevID.Designer.vb">
+      <DependentUpon>A4AdevID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="A4AdevID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desktop.Designer.vb">
+      <DependentUpon>Desktop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Desktop.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FadeEngine.vb" />
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
@@ -80,6 +93,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LogonProviders.vb" />
+    <Compile Include="Shutdown.Designer.vb">
+      <DependentUpon>Shutdown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shutdown.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Spl.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +121,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SystemController.vb" />
     <Compile Include="VBIOS.Designer.vb">
       <DependentUpon>VBIOS.vb</DependentUpon>
     </Compile>
@@ -110,6 +130,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="A4AdevID.resx">
+      <DependentUpon>A4AdevID.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
@@ -118,6 +141,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shutdown.resx">
+      <DependentUpon>Shutdown.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Spl.resx">
       <DependentUpon>Spl.vb</DependentUpon>
@@ -152,6 +178,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CompOS Logo 1 - 7.27.15-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restart-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Load1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A4Anewlogo - shortnwe.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

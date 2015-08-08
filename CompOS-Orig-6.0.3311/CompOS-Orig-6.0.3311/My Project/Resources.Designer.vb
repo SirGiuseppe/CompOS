@@ -63,6 +63,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property A4Anewlogo___shortnwe() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("A4Anewlogo - shortnwe", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property aliveLogo() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("aliveLogo", resourceCulture)
@@ -93,9 +103,39 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Load1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Load1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property login_48() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("login-48", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property restart_48() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("restart-48", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property shutdown_48() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("shutdown-48", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
