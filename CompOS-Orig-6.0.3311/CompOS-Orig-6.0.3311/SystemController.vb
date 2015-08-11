@@ -9,6 +9,7 @@ Module SystemController
         System.Diagnostics.Process.Start("shutdown", "-r -t 0")
     End Sub
     Public Sub ShutdownCompOS()
+        Shutdown.Show()
         Login.Close()
     End Sub
     Public Sub RestartCompOS()

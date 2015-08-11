@@ -37,6 +37,16 @@ CompOS-Basecode
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:CompOS_Basecode.My.Resources.Resources.folder_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CompOS_Basecode.My.Resources.Resources.gradientbck1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:CompOS_Basecode.My.Resources.Resources.Load">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -52,12 +62,32 @@ CompOS-Basecode
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:CompOS_Basecode.My.Resources.Resources.restart_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:CompOS_Basecode.My.Resources.Resources.restart_48">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:CompOS_Basecode.My.Resources.Resources.search_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CompOS_Basecode.My.Resources.Resources.shutdown_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:CompOS_Basecode.My.Resources.Resources.shutdown_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CompOS_Basecode.My.Resources.Resources.start_menu_48">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

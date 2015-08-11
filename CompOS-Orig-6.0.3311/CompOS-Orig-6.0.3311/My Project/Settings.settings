@@ -8,5 +8,11 @@
     <Setting Name="EXPKILL" Type="System.String" Scope="User">
       <Value Profile="(Default)">FALSE</Value>
     </Setting>
+    <Setting Name="dskpref" Type="System.String" Scope="User">
+      <Value Profile="(Default)">win</Value>
+    </Setting>
+    <Setting Name="startopen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FALSE</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

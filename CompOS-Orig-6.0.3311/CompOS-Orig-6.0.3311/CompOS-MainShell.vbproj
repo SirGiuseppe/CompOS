@@ -79,10 +79,17 @@
     <Compile Include="A4AdevID.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Desktop.Designer.vb">
-      <DependentUpon>Desktop.vb</DependentUpon>
+    <Compile Include="DatEngine.vb" />
+    <Compile Include="DesktopStart.Designer.vb">
+      <DependentUpon>DesktopStart.vb</DependentUpon>
     </Compile>
-    <Compile Include="Desktop.vb">
+    <Compile Include="DesktopStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="winDesktop.Designer.vb">
+      <DependentUpon>winDesktop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="winDesktop.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FadeEngine.vb" />
@@ -132,6 +139,12 @@
   <ItemGroup>
     <EmbeddedResource Include="A4AdevID.resx">
       <DependentUpon>A4AdevID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesktopStart.resx">
+      <DependentUpon>DesktopStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="winDesktop.resx">
+      <DependentUpon>winDesktop.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
@@ -190,6 +203,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\A4Anewlogo - shortnwe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradientbck1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_menu-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restart-32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -77,6 +77,30 @@ Namespace My
                 Me("EXPKILL") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("win")>  _
+        Public Property dskpref() As String
+            Get
+                Return CType(Me("dskpref"),String)
+            End Get
+            Set
+                Me("dskpref") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("FALSE")>  _
+        Public Property startopen() As String
+            Get
+                Return CType(Me("startopen"),String)
+            End Get
+            Set
+                Me("startopen") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
